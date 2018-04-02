@@ -1,0 +1,67 @@
+Magnify.  Windows + and Windows ESC
+
+Serialization
+Website(1) viewstate
+
+
+Show how well protected XXE is - can't make it work!
+
+
+Logging - Talk about PostSharp as a logging mechanism, and AOP
+
+
+CSRF, mention the .NET project
+
+
+Juice shop, new testing platform.
+https://sempfsjuiceshop.herokuapp.com/#/search
+Serialized Object in the auth token
+Show the quantity change in the basket
+Is that in the OWASP Top 10? Nope.
+
+
+Binary Deserialization
+https://media.blackhat.com/bh-us-12/Briefings/Forshaw/BH_US_12_Forshaw_Are_You_My_Type_WP.pdf
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+XXE Article if Barry says no
+
+https://www.jardinesoftware.net/2016/05/26/xxe-and-net/
+
+
+
+
+Serialization whitepaper
+
+https://media.blackhat.com/bh-us-12/Briefings/Forshaw/BH_US_12_Forshaw_Are_You_My_Type_WP.pdf
+
+
+
+
+Privacy - show a call out to the void with no SSL
+
+
+
+
+Logging - Maybe get Postsharp working?
+
+
+

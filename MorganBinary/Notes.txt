@@ -1,0 +1,9 @@
+﻿BinaryFormatter and other serializers that don’t limit types should never accept
+untrusted inputs as those can be used to trigger arbitrary code execution 
+(better yet, just don’t use those serializers). For inspiration, 
+https://media.blackhat.com/bh-us-12/Briefings/Forshaw/BH_US_12_Forshaw_Are_You_My_Type_WP.pdf 
+introduced this class of issue and 
+https://media.defcon.org/DEF%20CON%2025/DEF%20CON%2025%20presentations/DEFCON-25-Alvaro-Munoz-JSON-attacks.pdf 
+is a good overview of the current state, including other safe/unsafe serializers. 
+We recommend type-limiting serializers, such as DataContractSerializer, 
+XmlSerializer, and JSON.Net (with TypeNameHandling set to None).
