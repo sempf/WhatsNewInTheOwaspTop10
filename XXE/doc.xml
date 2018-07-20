@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<!DOCTYPE passwd [
+  <!ELEMENT passwd ANY>
+  <!ENTITY passwd SYSTEM "file:///C:/foo.txt">
+]>
+<passwd>&passwd;</passwd> 
