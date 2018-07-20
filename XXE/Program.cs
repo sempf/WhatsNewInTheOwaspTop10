@@ -13,9 +13,7 @@ namespace XXE
     {
         static void Main(string[] args)
         {
-            string xml = "<?xml version=\"1.0\" ?><!DOCTYPE doc " +
-                "[< !ENTITY win SYSTEM \"file:///C:/tools/testdata2.txt\">]>" +
-                "< doc > &win;</ doc > ";
+            string xml = File.ReadAllText("C:\\doc.xml");
 
             XmlReaderSettings rs = new XmlReaderSettings();
 
