@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Xml;
 
-// POC: James Jardine
+// POC James Jardine
+// HT Carl Sampson
 
 namespace XXE
 {
@@ -13,7 +11,7 @@ namespace XXE
     {
         static void Main(string[] args)
         {
-            string xml = File.ReadAllText("C:\\doc.xml");
+            string xml = File.ReadAllText("C:\\temp\\doc.xml");
 
             XmlReaderSettings rs = new XmlReaderSettings();
 
